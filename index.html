@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f16fe10581.js" crossorigin="anonymous"></script>
+    <title>Contact | Form</title>
+</head>
+<body>
+    <div class="contact-page">
+        <div class="left-side">
+            <div class="left-side-header">
+                <h1>Mes contacts</h1>
+                <button id="left-btn" class="btn-style">Ajouter</button>
+            </div>
+            <div class="contact-append">
+                
+            </div>
+            
+        </div>
+        
+        <div class="right-side" style="display: none;">
+            <h2>Ajouter un contact</h2>
+            <form action="" method="post">
+                <div class="form-items">
+                    <div class="col-form">
+                        <label for="fname">Nom</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="col-form">
+                        <label for="lname">Prénom</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div class="col-form">
+                        <label for="country">Pays</label>
+                        <select name="country" id="country">
+                            <option value="choose">Choisir un pays</option>
+                            <option value="Cameroon">Cameroon</option>
+                            <option value="Cameroon">Congo</option>
+                            <option value="Tchad">Tchad</option>
+                            <option value="Cote d'ivoire">Cote d'voire</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Egypt">Egypte</option>
+                            <option value="Gabon">Gabon</option>
+                            <option value="Benin">Benin</option>
+                        </select>
+                    </div>
+                    <div class="col-form">
+                        <label for="gender">Genre</label>
+                        <select name="gender" id="gender">
+                            <option value="choose">Choisir le genre</option>
+                            <option value="Homme">Homme</option>
+                            <option value="Femme">Femme</option>
+                            <option value="Autres">Autres</option>
+                        </select>
+                    </div>
+                    <div class="col-form">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="col-form">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="col-form">
+                        <label for="date">Date de naissance</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="col-form">
+                        <label for="picture">Photo</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+                    <div>
+                        <button class="btn-style" id="submit">Ajouter ce contact</button>
+                    </div>
+                    <div>
+                        <button class="btn-style" id="cancel">Annuler</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-page{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.left-side{
+    width: 45%;
+}
+
+.left-side-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side h1 {
+    font-size: 35px;
+}
+
+/*Added persons*/
+    
+.added-img img{
+    width: 80px;
+    margin-right: 10px;
+}
+
+.added-info p, h3{
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.added-info .size{
+    font-size: 12px;
+    color:#666262;
+}
+
+.added-persons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    margin-right: 15px;
+}
+
+.icons #icon-2{
+    padding:4px 10px;
+    height: 28px;
+    background-color: red;
+    color:white;
+    border-radius: 7px;
+}
+
+.icons #icon-1{
+    padding:4px 10px;
+    height: 28px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+.img-and-info{
+    display: flex;
+}
+
+.contact-append{
+    display: block;
+    
+}
+/*Right-side of the contact page*/
+
+.right-side{
+    width: 45%;
+    margin-top: 80px;
+    display: none;
+}
+
+.right-side h2 {
+    font-size: 25px;
+}
+
+.form-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input[type="text"], input[type="email"], input[type="tel"],
+input[type="file"], input[type="date"], select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.col-form{
+    width: 45%;
+    margin: 10px 0 30px;
+}
+
+.hide{
+    display: none;
+}
+
+/*Bouttons*/
+
+.btn-style{
+    border:none;
+    color:white;
+    border-radius: 8px;
+    background-color: rgb(40, 40, 228);
+}
+
+#left-btn{
+    padding: 5px 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#submit{
+    padding: 7px 75px;
+    cursor: pointer;
+}
+
+#cancel{
+    padding: 7px 50px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+/*.vertical-line{
+    border-left: 1px solid #ccc;
+    margin: 45px 0 50px;
+    height: 650px;
+}
+*/
+#icon-1, #icon-2{
+    cursor: pointer;
+}
+
